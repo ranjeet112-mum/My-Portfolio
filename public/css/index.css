@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+
+html{
+    color-scheme: dark light;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url('../../assets/background-img.jpg') no-repeat center fixed;
+    background-size: cover;
+} 
+
+.site-header {
+    min-height: 25px;
+    font-family: 'Nanum Gothic Coding', monospace;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    display: flex;
+    justify-content: space-between;
+}
+
+.site-header .title {
+    display: flex;
+    align-items: center;padding-left: 1%;
+}
+
+.site-header .title .brackets {
+    font-size: 11px;
+    font-weight: 900;
+    color: rgba(102, 73, 255,0.7);
+    margin-right: 3px;
+    margin-left: 5px;
+}
+.site-header .nav-wrapper {
+    display: flex;
+    gap: 2px;
+    margin-right: 10px;
+}
+.site-header .nav-wrapper .nav-button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Nanum Gothic Coding', monospace;
+    font-size: 14px;
+    font-weight: 900;
+    color: grey;
+    cursor: pointer;
+}
+.site-header .nav-wrapper .brackets {
+    font-size: 11px;
+    color: rgba(90, 90, 91, 0.7);
+    display: flex;
+    align-items: center;
+}
+.site-header .nav-wrapper .active {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5755);
+    transition: color 0.8ms ease;
+    
+}
